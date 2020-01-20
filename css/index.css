@@ -525,8 +525,7 @@ footer .copyright {
 
     @media(max-width: 500px) {
         body {
-            
-              color: pink;
+         
           }
 
           #pic {
@@ -537,10 +536,15 @@ footer .copyright {
              padding: 0;
              margin: 0;
           }
+
+          #logo {
+              padding-top: 5%;
+          }
         .navbar {
             flex-direction: column-reverse;
             width: 100%;
             padding: 0%;
+        
      
           }
 
@@ -575,17 +579,92 @@ footer .copyright {
             
             }
 
-          .content-box {
-             box-sizing: content-box;
-
-            }
-
-            .content-box .content-box-top {
+            .content-section {
+                display: flex;
                 flex-direction: column;
+                flex-wrap: wrap;
                 
-                width: 5%;
+                
             }
-  
+.container {
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;    
+    justify-content: flex-start;
+    
+}
+
+.hero {
+    border-bottom: 1.4px solid black;
+    width: 98%;
+    padding-bottom: 15%;
+}
+          .content-box {
+             
+              display: flex;
+              flex-direction: column;
+              width: 100%;
+              
+              
+            }
+
+            .content-box p {
+                display: flex;
+                flex-direction: column;
+                width: 200%;
+                margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+                
+            }
+
+            .content-box.content-box-top {
+               display: flex;
+               flex-direction: column;
+               border: none;
+               
+               
+               
+               
+            }
+            .content-box.content-box-bottom {
+                display: flex;
+                flex-direction: column;
+                align-self: flex-start;
+                flex-wrap: wrap;
+                width: 100%;
+                
+                padding: 4%;
+                
+                
+                
+            }
+
+            .content-box.content-box-bottom p{
+                
+                width: 400%;
+            }
+
+            #mid {
+                width: 100% !important;
+            }
+
+            .footer {
+                display: flex;
+                flex-direction: column; 
+                width: 100%;
+                align-items: flex-start;
+                       }
+
+            .copyright {
+                align-self: center;
+                margin-top: 5%;
+            }
+
+          
         }
 
         

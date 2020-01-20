@@ -657,11 +657,14 @@ footer .copyright {
                 flex-direction: column; 
                 width: 100%;
                 align-items: flex-start;
+                margin: 1%;
                        }
 
             .copyright {
                 align-self: center;
                 margin-top: 5%;
+                margin-left: 0;
+                margin-right: 0;
             }
 
           

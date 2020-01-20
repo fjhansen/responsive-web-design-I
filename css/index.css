@@ -528,6 +528,64 @@ footer .copyright {
             
               color: pink;
           }
+
+          #pic {
+            display: none;
+        }
+        
+        .main-header {
+             padding: 0;
+             margin: 0;
+          }
+        .navbar {
+            flex-direction: column-reverse;
+            width: 100%;
+            padding: 0%;
+     
+          }
+
+          .main-header .navbar {
+              padding: 0%;
+          }
+
+          .navbar ul {
+            border-top: 1px solid black;
+            width: 100%;
+            flex-wrap: nowrap;
+            align-items: center;
+            justify-content: space-evenly;
+            
+         
+            
+            
+        
+          }
+
+          .navbar li {
+            display: flex;
+            border-bottom: 1px solid black;
+              width: 100%;
+              align-items: center;
+              justify-content: space-around;
+       
+          }
+
+          .navbar li a {
+             margin: 3%;         
+            
+            }
+
+          .content-box {
+             box-sizing: content-box;
+
+            }
+
+            .content-box .content-box-top {
+                flex-direction: column;
+                
+                width: 5%;
+            }
+  
         }
 
         
